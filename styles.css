@@ -37,11 +37,11 @@ body{
     color: #14532d;
  }
  body{
-    background-color: white;
+    background-color: pink;
 }
 
 button{
-    background-color: lightpink;
+    background-color: rgb(244, 119, 138);
     padding: 10px;
     border: 2px solid white;
     border-radius: 4px;

@@ -19,9 +19,9 @@ body{
 
 /* Individual div boxes */
 .project-box {
-    background-color: #bbf7d0;
+    background-color: #ccf5db;
     padding: 20px;
-    border: 2px solid #16a34a;
+    border: 2px solid #7ce6a3;
     border-radius: 8px;
     flex: 1 1 180px;
  }
@@ -34,7 +34,7 @@ body{
 
  /* paragraphs inside each box*/
  .project-box p {
-    color: #14532d;
+    color: #0f542b;
  }
  body{
     background-color: pink;
@@ -48,6 +48,17 @@ button{
     height: 30px;
     width: 80px;
     color: palevioletred;
-    font-size: 5px;
+    font-size: 9px;
+    cursor: pointer;
+}
+button{
+    background-color: rgb(244, 119, 138);
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 4px;
+    height: 30px;
+    width: 80px;
+    color: palevioletred;
+    font-size: 9px;
     cursor: pointer;
 }

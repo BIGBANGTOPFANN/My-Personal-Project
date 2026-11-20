@@ -66,8 +66,13 @@ p {
     font-size: 25px
 }
 .lists-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    align-items: start;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.lists-container > div {
+    width: 250px;
 }
